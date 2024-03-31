@@ -22,12 +22,27 @@ Several functions are defined to perform specific tasks related to vehicle routi
 - create_vehicles_deliveries_output: Assigns each order to a vehicle.
 - tours_of_vehicles: Creates input parameters for tours of vehicles.
 
+
 ## Data Loading and Manipulation:
 
 Data is loaded from an Excel file containing distance matrices, vehicle categories, and demand information.
 Various calculations and manipulations are performed on the data to optimize vehicle routing.
 
+## Input:
+Input data is imported from excel using pandas. Below is a pictorial description of the input data.
+
+![image](https://github.com/savavukmirovic/Vehicle-Routing-Project/assets/126354345/9cd2c445-46cb-451a-9310-927e1b8b67b7)
+
+![image](https://github.com/savavukmirovic/Vehicle-Routing-Project/assets/126354345/5d23428f-dac4-41aa-a173-de43b77f66f8)
+
+![image](https://github.com/savavukmirovic/Vehicle-Routing-Project/assets/126354345/48009acb-ea71-4583-8b76-de9d026c3e4b)
+
+![image](https://github.com/savavukmirovic/Vehicle-Routing-Project/assets/126354345/9aebdba9-264d-467c-acaa-63279d6c6508)
+
 ## Output:
 
 The final output includes vehicle tours, delivery details, and vehicle categories.
 The output data is exported to Excel files for further analysis and processing.
+Below is a pictorial description of the output data.
+
+![image](https://github.com/savavukmirovic/Vehicle-Routing-Project/assets/126354345/fe1dee78-ad8f-4223-99a5-a6a8c64d150d)
